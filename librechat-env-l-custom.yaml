@@ -51,7 +51,7 @@ endpoints:
       dropParams:
         - "stream"
       modelDisplayLabel: "APIpie"
-      iconURL: "https://apipie.ai/img/logo-drk.png"
+      # iconURL: "https://apipie.ai/img/logo-drk.png"
       
 speech:
   speechTab:
