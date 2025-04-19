@@ -34,7 +34,7 @@ endpoints:
 speech:
   speechTab:
     conversationMode: true
-    advancedMode: false
+    advancedMode: true
     speechToText:
       engineSTT: "browser"
       languageSTT: "French (FR)"
@@ -43,20 +43,8 @@ speech:
       autoSendText: 0
     textToSpeech:
       engineTTS: "browser"
-      voice: "alloy"
+      cloudBrowserVoices: true
       languageTTS: "fr"
       automaticPlayback: true
       playbackRate: 1.0
       cacheTTS: true
-  stt:
-    openai:
-      apiKey: "${ELECTRONHUB_API_KEY}"
-      url: "https://api.electronhub.top/v1/audio/transcriptions"
-      model: "whisper-large-v3"
-  tts:
-    elevenlabs:
-      url: "https://api.electronhub.top/v1/audio/speech"
-      apiKey: "${ELECTRONHUB_API_KEY}"
-      model: "elevenlabs"
-      voices: 
-        - will
