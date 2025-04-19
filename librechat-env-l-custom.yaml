@@ -43,7 +43,7 @@ endpoints:
           - gemini-2.5-pro-exp-03-25
           - pixtral-large-2411
           - claude-3.7-sonnet-20250219
-        fetch: true
+        fetch: false
       titleConvo: true
       titleModel: "llama-4-scout"
       summarize: true
