@@ -76,7 +76,7 @@ speech:
       model: "gpt-4o-mini-transcribe"
   tts:
     openai:
-      url: "https://apipie.ai/v1/audio/speech"
+      url: "https://api.openai.com/v1/audio/speech"
       apiKey: "${TTS_API_KEY}"
       model: "gpt-4o-mini-tts"
       voices:
