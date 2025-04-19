@@ -72,11 +72,11 @@ speech:
       cacheTTS: true
   stt:
     openai:
-      apiKey: "OPENAI_API_KEY"
+      apiKey: "${STT_API_KEY}"
       model: "gpt-4o-mini-transcribe"
   tts:
     openai:
-      apiKey: "${APIPIE_API_KEY}"
+      apiKey: "${TTS_API_KEY}"
       model: "gpt-4o-mini-tts"
       voices:
         - alloy
