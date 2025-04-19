@@ -42,3 +42,5 @@ speech:
       url: "https://api.electronhub.top/v1/audio/speech"
       apiKey: "${ELECTRONHUB_API_KEY}"
       model: "elevenlabs"
+      voices: 
+        - will
