@@ -32,6 +32,22 @@ endpoints:
       iconURL: "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/12560061/85eee3b0fd884366a1ba945c2df37bcf/eyJ3IjoyMDB9/6.png?token-time=2145916800&token-hash=xfzg-GLUhQ7Jv_M8xuvaZSKVuSOgyNgB9c7a_qSm8AM%3D"
 
 speech:
+  speechTab:
+    conversationMode: true
+    advancedMode: false
+    speechToText:
+      engineSTT: "browser"
+      languageSTT: "French (FR)"
+      autoTranscribeAudio: true
+      decibelValue: -45
+      autoSendText: 0
+    textToSpeech:
+      engineTTS: "browser"
+      voice: "alloy"
+      languageTTS: "en"
+      automaticPlayback: true
+      playbackRate: 1.0
+      cacheTTS: true
   stt:
     openai:
       apiKey: "${ELECTRONHUB_API_KEY}"
