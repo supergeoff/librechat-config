@@ -44,7 +44,7 @@ speech:
     textToSpeech:
       engineTTS: "browser"
       voice: "alloy"
-      languageTTS: "en"
+      languageTTS: "fr"
       automaticPlayback: true
       playbackRate: 1.0
       cacheTTS: true
