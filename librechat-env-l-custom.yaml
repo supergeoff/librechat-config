@@ -44,6 +44,7 @@ speech:
     textToSpeech:
       engineTTS: "browser"
       cloudBrowserVoices: true
+      voice: "Google français"
       languageTTS: "fr"
       automaticPlayback: true
       playbackRate: 1.0
