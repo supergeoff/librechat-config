@@ -30,3 +30,15 @@ endpoints:
       summaryModel: "llama-4-scout-17b-16e-instruct"
       modelDisplayLabel: "ElectronHub"
       iconURL: "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/12560061/85eee3b0fd884366a1ba945c2df37bcf/eyJ3IjoyMDB9/6.png?token-time=2145916800&token-hash=xfzg-GLUhQ7Jv_M8xuvaZSKVuSOgyNgB9c7a_qSm8AM%3D"
+
+speech:
+  stt:
+    openai:
+      apiKey: "${ELECTRONHUB_API_KEY}"
+      url: "https://api.electronhub.top/v1/audio/transcriptions"
+      model: "whisper-large-v3"
+  tts:
+    elevenlabs:
+      url: "https://api.electronhub.top/v1/audio/speech"
+      apiKey: "${ELECTRONHUB_API_KEY}"
+      model: "elevenlabs"
