@@ -58,16 +58,34 @@ speech:
     conversationMode: true
     advancedMode: true
     speechToText:
-      engineSTT: "browser"
+      engineSTT: "external"
       languageSTT: "French (FR)"
       autoTranscribeAudio: true
       decibelValue: -45
       autoSendText: 0
     textToSpeech:
-      engineTTS: "browser"
-      cloudBrowserVoices: true
-      voice: "Google français"
+      engineTTS: "external"
+      voice: "fable"
       languageTTS: "fr"
       automaticPlayback: true
       playbackRate: 1.0
       cacheTTS: true
+  stt:
+    openai:
+      apiKey: "OPENAI_API_KEY"
+      model: "gpt-4o-mini-transcribe"
+  tts:
+    openai:
+      apiKey: "${APIPIE_API_KEY}"
+      model: "gpt-4o-mini-tts"
+      voices:
+        - alloy
+        - ash
+        - ballad
+        - coral
+        - echo
+        - fable
+        - nova
+        - onyx
+        - sage
+        - shimmer
